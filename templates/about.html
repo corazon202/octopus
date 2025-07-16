@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About SHAKA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="topbar">
+        SHAKA
+    </header>
+
+    <div class="main-content">
+        <h1>About This Site</h1>
+        <p>This website uses a dark blue background inspired by a visual concept. Built with Flask.</p>
+        <a href="{{ url_for('home') }}" class="button">Go Home</a>
+    </div>
+
+    <footer class="footer">
+        <a href="{{ url_for('home') }}">Home.</a>
+    </footer>
+</body>
+</html>
